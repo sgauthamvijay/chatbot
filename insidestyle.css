@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body {
+  font-family: "Spline Sans" sans-serif;
+} */
+.container{
+  float: right;
+  
+
+
+  
+
+}
+
+.chat_room {
+  width: 380px;
+  margin-top: 115px;
+
+  margin-right: 10px;
+}
+.title {
+  background: #007bff;
+  color: white;
+  line-height: 2.5;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  font-size: 30px;
+  height: 70px;
+}
+.iconBox{
+  float: right;
+  margin-top: 10px;
+  
+}
+
+
+
+.box {
+  border: 1px solid white;
+  padding: 10px 15px;
+  min-height: 400px;
+  max-height: 400px;
+  background: rgb(245, 245, 245);
+}
+.item {
+  display: flex;
+  width: 170px;
+  float: left;
+}
+.iconChat {
+  background:transparent;
+  color: black;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  align-items: center;
+ 
+}
+.message {
+  background: #007bff;
+  color: white;
+  border-radius: 10px;
+  width: 170px;
+  margin-left: 10px;
+}
+p {
+  padding: 10px;
+}
+.me {
+  background: #007bff;
+  color: #333;
+  margin-left: 10px;
+  border-radius: 10px;
+  width: 170px;
+  margin-left: 10px;
+  float: left;
+}
+.item_right {
+  float: right;
+}
+#message {
+  background: #efefef;
+  color: #333;
+  margin-left: 10px;
+  border-radius: 10px;
+  width: 170px;
+  margin-left: 10px;
+}
+.typing {
+  margin-left: 5px;
+  width: 100%;
+  background: #faf9f9;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.input {
+  width: 100%;
+  position: relative;
+  border: 1px solid;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  padding-right: 70px;
+  cursor: pointer;
+}
+input:hover {
+  border-color: #007bff;
+}
+.send {
+  /* position: absolute; */
+
+  /* top: 50%; */
+  /* right: 10px; */
+  margin-top: 32px;
+  margin-left: 12px;
+  transform: translateY(-50%);
+  background: transparent;
+  /* border: 1px solid #929292; */
+  border: transparent;
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: #007bff;
+  outline: none;
+
+ 
+}
+button:hover {
+  background: #007bff;
+  color: white;
+}
+.open {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  position: relative;
+}
+.userIcon {
+  background:transparent;
+  color: black;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  float: left;
+  align-items: center;
+  
+}
+.card {
+  padding: 2px;
+  border: 1px solid black;
+  background: rgb(211, 210, 211);
+
+  margin-top: 5px;
+  border-radius: 5px;
+  float: left;
+  text-align: center;
+}
+.card{
+    margin-top: 30px;
+  
+}
